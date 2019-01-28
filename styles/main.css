@@ -1,0 +1,62 @@
+
+header{
+position:relative;
+border-bottom: 1px solid grey;
+display: block;
+}
+
+footer{
+position: absolute;
+bottom: 0px;
+border: 1px solid black;
+}
+
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li a{
+  color:black; opacity: 0.8;
+  text-decoration: none;
+  padding: 5px 10px;
+  display: block;
+}
+
+li{
+  float: left;
+}
+
+.searchtype{
+  height: 50%;
+  display: inline-block;
+  width: 615px;
+  margin-left: 120px;
+  font-size: small;
+}
+
+.top-header{
+
+ margin: 15px;
+ display: flex;
+}
+
+.flt-right{
+  float: right;
+}
+
+.logo{
+  width: 90px;
+  height: 30px;
+  margin-right: 20px;
+}
+
+#searchbar{
+  height: 35px;
+  width: 600px;
+  border-radius: 33px;
+  box-shadow: none;
+  border:1px solid lightgrey;
+}

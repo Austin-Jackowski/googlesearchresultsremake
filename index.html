@@ -13,11 +13,11 @@
     <header> <!--Divided header into two halves - top(searchbar) and bottom(searchtype)-->
       <div class="top-header">
         <div class="logo">
-          <a href="#"><img href="images/googlelogo.png" width="90px" height="30px"></a>
+          <a href="#"><img src="images/googlelogo.png" width="90px" height="30px"></a>
         </div>
         <div class="searchform"> <!-- maybe use googlogo w/ alt attr as label?-->
           <form action="#" method="#">
-            <input type="text"> 
+            <input type="text" id="searchbar"> 
           </form>
         </div>
         <div class="profilebtn"></div>
@@ -30,8 +30,10 @@
           <li><a href="#">Videos</a></li>
           <li><a href="#">News</a></li>
           <li><a href="#">More</a></li>
-          <li><a href="#">Settings</a></li>
-          <li><a href="#">Tools</a></li>
+          <ul class="flt-right">
+            <li><a href="#">Settings</a></li>
+            <li><a href="#">Tools</a></li>
+          </ul>
         </ul>
       </nav>
     </header>
